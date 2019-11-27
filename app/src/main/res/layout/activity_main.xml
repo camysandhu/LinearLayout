@@ -14,8 +14,7 @@
         android:layout_gravity="center"
         android:layout_margin="16dp"
         android:layout_weight="0"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@mipmap/login_new_round" />
 
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -111,30 +110,31 @@
             android:layout_weight="1"
             android:text="DIV" />
     </LinearLayout>
+
     <com.google.android.material.chip.ChipGroup
-        android:layout_width="wrap_content"
+        android:layout_width="401dp"
         android:layout_height="wrap_content">
 
         <com.google.android.material.chip.Chip
             style="@style/Widget.MaterialComponents.Chip.Filter"
-            android:checkable="true"
-            android:checked="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Filter Chip"/>
+            android:checkable="true"
+            android:checked="true"
+            android:text="Filter Chip" />
 
         <com.google.android.material.chip.Chip
             style="@style/Widget.MaterialComponents.Chip.Choice"
-            android:checked="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Choice Chip"/>
+            android:checked="true"
+            android:text="Choice Chip" />
 
         <com.google.android.material.chip.Chip
             style="@style/Widget.MaterialComponents.Chip.Action"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Action Chip"/>
+            android:text="Action Chip" />
 
     </com.google.android.material.chip.ChipGroup>
 
